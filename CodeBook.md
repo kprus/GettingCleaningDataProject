@@ -9,12 +9,17 @@ descriptive name of the activity being done by the subject when the measurements
 This dataset includes 180 observations: one for each of the 30 subjects (numbered consecutively) performing each
 of the following 6 activities:
 
--WALKING
--WALKING_UPSTAIRS
--WALKING_DOWNSTAIRS
--SITTING
--STANDING
--LAYING
+1) WALKING
+
+2) WALKING_UPSTAIRS
+
+3) WALKING_DOWNSTAIRS
+
+4) SITTING
+
+5) STANDING
+
+6) LAYING
 
 The measurements come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time
 domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered
@@ -33,39 +38,71 @@ frequency domain signals).
 These signals were used to estimate variables of the feature vector for each pattern: 
 Note: Features are normalized and bounded within [-1,1]. 
 
--tBodyAcc-X
--tBodyAcc-Y
--tBodyAcc-Z
--tGravityAcc-X
--tGravityAcc-Y
--tGravityAcc-Z
--tBodyAccJerk-X
--tBodyAccJerk-Y
--tBodyAccJerk-Z
--tBodyGyro-X
--tBodyGyro-Y
--tBodyGyro-Z
--tBodyGyroJerk-X
--tBodyGyroJerk-Y
--tBodyGyroJerk-Z
--tBodyAccMag
--tGravityAccMag
--tBodyAccJerkMag
--tBodyGyroMag
--tBodyGyroJerkMag
--fBodyAcc-X
--fBodyAcc-Y
--fBodyAcc-Z
--fBodyAccJerk-X
--fBodyAccJerk-Y
--fBodyAccJerk-Z
--fBodyGyro-X
--fBodyGyro-Y
--fBodyGyro-Z
--fBodyAccMag
--fBodyAccJerkMag
--fBodyGyroMag
--fBodyGyroJerkMag
+1) tBodyAcc-X
+
+2) tBodyAcc-Y
+
+3) tBodyAcc-Z
+
+4) tGravityAcc-X
+
+5) tGravityAcc-Y
+
+6) tGravityAcc-Z
+
+7) tBodyAccJerk-X
+
+8) tBodyAccJerk-Y
+
+9) tBodyAccJerk-Z
+
+10) tBodyGyro-X
+
+11) tBodyGyro-Y
+
+12) tBodyGyro-Z
+
+13) tBodyGyroJerk-X
+
+14) tBodyGyroJerk-Y
+
+15) tBodyGyroJerk-Z
+
+16) tBodyAccMag
+
+17) tGravityAccMag
+
+18) tBodyAccJerkMag
+
+19) tBodyGyroMag
+
+20) tBodyGyroJerkMag
+
+21) fBodyAcc-X
+
+22) fBodyAcc-Y
+
+23) fBodyAcc-Z
+
+24) fBodyAccJerk-X
+
+25) fBodyAccJerk-Y
+
+26) fBodyAccJerk-Z
+
+27) fBodyGyro-X
+
+28) fBodyGyro-Y
+
+29) fBodyGyro-Z
+
+30) fBodyAccMag
+
+31) fBodyAccJerkMag
+
+32) fBodyGyroMag
+
+33) fBodyGyroJerkMag
 
 From each signal, the following variables were estimated:
 
