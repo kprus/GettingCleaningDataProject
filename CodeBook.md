@@ -9,12 +9,12 @@ descriptive name of the activity being done by the subject when the measurements
 This dataset includes 180 observations: one for each of the 30 subjects (numbered consecutively) performing each
 of the following 6 activities:
 
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+-WALKING
+-WALKING_UPSTAIRS
+-WALKING_DOWNSTAIRS
+-SITTING
+-STANDING
+-LAYING
 
 The measurements come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time
 domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered
@@ -33,39 +33,39 @@ frequency domain signals).
 These signals were used to estimate variables of the feature vector for each pattern: 
 Note: Features are normalized and bounded within [-1,1]. 
 
-tBodyAcc-X
-tBodyAcc-Y
-tBodyAcc-Z
-tGravityAcc-X
-tGravityAcc-Y
-tGravityAcc-Z
-tBodyAccJerk-X
-tBodyAccJerk-Y
-tBodyAccJerk-Z
-tBodyGyro-X
-tBodyGyro-Y
-tBodyGyro-Z
-tBodyGyroJerk-X
-tBodyGyroJerk-Y
-tBodyGyroJerk-Z
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-X
-fBodyAcc-Y
-fBodyAcc-Z
-fBodyAccJerk-X
-fBodyAccJerk-Y
-fBodyAccJerk-Z
-fBodyGyro-X
-fBodyGyro-Y
-fBodyGyro-Z
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+-tBodyAcc-X
+-tBodyAcc-Y
+-tBodyAcc-Z
+-tGravityAcc-X
+-tGravityAcc-Y
+-tGravityAcc-Z
+-tBodyAccJerk-X
+-tBodyAccJerk-Y
+-tBodyAccJerk-Z
+-tBodyGyro-X
+-tBodyGyro-Y
+-tBodyGyro-Z
+-tBodyGyroJerk-X
+-tBodyGyroJerk-Y
+-tBodyGyroJerk-Z
+-tBodyAccMag
+-tGravityAccMag
+-tBodyAccJerkMag
+-tBodyGyroMag
+-tBodyGyroJerkMag
+-fBodyAcc-X
+-fBodyAcc-Y
+-fBodyAcc-Z
+-fBodyAccJerk-X
+-fBodyAccJerk-Y
+-fBodyAccJerk-Z
+-fBodyGyro-X
+-fBodyGyro-Y
+-fBodyGyro-Z
+-fBodyAccMag
+-fBodyAccJerkMag
+-fBodyGyroMag
+-fBodyGyroJerkMag
 
 From each signal, the following variables were estimated:
 
